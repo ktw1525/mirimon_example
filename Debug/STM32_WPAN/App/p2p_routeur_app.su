@@ -1,0 +1,10 @@
+p2p_routeur_app.c:169:6:EDS_STM_App_Notification	16	static
+p2p_routeur_app.c:215:6:P2PS_STM_App_Notification	16	static
+p2p_routeur_app.c:283:6:P2P_Router_APP_Init	16	static
+p2p_routeur_app.c:327:6:P2PR_APP_End_Device_Mgt_Connection_Update	16	static
+p2p_routeur_app.c:380:6:P2P_Client_App_Notification	16	static
+p2p_routeur_app.c:427:6:P2P_Client_Init	16	static
+p2p_routeur_app.c:455:6:P2PR_APP_Init	8	static
+p2p_routeur_app.c:473:13:Client_Update_Service	16	static
+p2p_routeur_app.c:568:19:Client_Update_Char	24	static
+p2p_routeur_app.c:608:30:Client_Event_Handler	96	static

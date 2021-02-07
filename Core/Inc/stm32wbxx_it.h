@@ -28,7 +28,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app_common.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -56,8 +56,17 @@ void SVC_Handler(void);
 void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
+void EXTI4_IRQHandler(void);
+void DMA1_Channel1_IRQHandler(void);
+void DMA1_Channel2_IRQHandler(void);
+void USART1_IRQHandler(void);
+void HSEM_IRQHandler(void);
 /* USER CODE BEGIN EFP */
-
+void RTC_WKUP_IRQHandler(void);
+void IPCC_C1_TX_IRQHandler(void);
+void IPCC_C1_RX_IRQHandler(void);
+void PUSH_BUTTON_SW1_EXTI_IRQHandler(void);
+void PUSH_BUTTON_SW2_EXTI_IRQHandler(void);
 /* USER CODE END EFP */
 
 #ifdef __cplusplus
